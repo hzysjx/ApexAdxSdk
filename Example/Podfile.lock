@@ -1,0 +1,16 @@
+PODS:
+  - ApexAdxSdk (0.1.0)
+
+DEPENDENCIES:
+  - ApexAdxSdk (from `../`)
+
+EXTERNAL SOURCES:
+  ApexAdxSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ApexAdxSdk: a9d161d3cb7d2f1556cc67c14c645293db243d0d
+
+PODFILE CHECKSUM: 4d192afef5d747619c456b7e366a9d3b805fedd1
+
+COCOAPODS: 1.16.2

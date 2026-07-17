@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0C30C3EF139A724D89386DB2503FC8 /* Pods-ApexAdxSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8D4A62E4D4815890CE16387386F1DE /* Pods-ApexAdxSdk_Tests-dummy.m */; };
+		1B6B10D78E7E53F32BC450C32B67AAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		1F8307DAACA0F4490A8A530EEE9577A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		2F075934D0052BFC43F59596F531C024 /* ApexAdxSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDAB0F504426393658CB285AB7BC7D8 /* ApexAdxSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98724316D50332EB26B41D93768C9471 /* Pods-ApexAdxSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A87FAF7AF1B0048CBFC11CAD22138728 /* Pods-ApexAdxSdk_Example-dummy.m */; };
+		A96B6D901282A33B670159F35C0A19D2 /* Pods-ApexAdxSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F91750EA33EBEACB72F2C59E2F2770F2 /* Pods-ApexAdxSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFFF2037C96121C7A91D5F628231C866 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 351F954033AAE5377AF41FE936B0CEF0 /* ReplaceMe.m */; };
+		B606ED54649E7D57BBB0609C26DF6380 /* Pods-ApexAdxSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A579B5D991543743C2D1DD4EA371D2F /* Pods-ApexAdxSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D17DE28FE50BB1053D93C19346812EA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		FE8BC99AF9054DE692B8CE78584B9A0A /* ApexAdxSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DF3F19404233E6AC1EDB912DDA89B /* ApexAdxSdk-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41A7C6D214B62809909BC8662BF3580E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CD3E945F45A1CF650DD2E3C1E0E7372;
+			remoteInfo = "Pods-ApexAdxSdk_Example";
+		};
+		4DE5A4EFB43AD429BF0B81CA0C4C9835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4927A3C2421C97E5AA08BD98F21579AE;
+			remoteInfo = ApexAdxSdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14B4E542E3B2C9EB576666E1A788B3DE /* Pods-ApexAdxSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApexAdxSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		19D77CB51A1C6E64C06A08DB3D2BC6FF /* Pods-ApexAdxSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApexAdxSdk_Tests-Info.plist"; sourceTree = "<group>"; };
+		1A79B7831730255AD7876A57134D6A05 /* Pods-ApexAdxSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApexAdxSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		21A34BA478E36A563E7CEB59E47C3B6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		281C7D149272577A2406A955A1F98E1D /* Pods-ApexAdxSdk_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ApexAdxSdk_Example"; path = Pods_ApexAdxSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B51764338917948C74497F3086BF7E3 /* Pods-ApexAdxSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ApexAdxSdk_Tests.modulemap"; sourceTree = "<group>"; };
+		2DC4A7E100D5A41D9F6BCE7375A9A039 /* ApexAdxSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ApexAdxSdk-Info.plist"; sourceTree = "<group>"; };
+		351841D4F9E5695621E271A3FEE5D5EE /* Pods-ApexAdxSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApexAdxSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		351F954033AAE5377AF41FE936B0CEF0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ApexAdxSdk/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A579B5D991543743C2D1DD4EA371D2F /* Pods-ApexAdxSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ApexAdxSdk_Example-umbrella.h"; sourceTree = "<group>"; };
+		3CDAB0F504426393658CB285AB7BC7D8 /* ApexAdxSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApexAdxSdk-umbrella.h"; sourceTree = "<group>"; };
+		5969D54A74BBA484CC8D21A643C83EC1 /* Pods-ApexAdxSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ApexAdxSdk_Example.modulemap"; sourceTree = "<group>"; };
+		5ED566E8713DBB1D1EC49B817CA2BA1A /* Pods-ApexAdxSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ApexAdxSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69F888991E5F9415F6E5CC283A7BEBA4 /* ApexAdxSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ApexAdxSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B6761E7CCB9307E4FA22A0284C72942 /* Pods-ApexAdxSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApexAdxSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		81E37D92CD612090E7E012692E580412 /* ApexAdxSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApexAdxSdk.debug.xcconfig; sourceTree = "<group>"; };
+		9843CF1484C12CC13FC712B84F90EE8F /* Pods-ApexAdxSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApexAdxSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A13CDD12F86B41FC90C3F5ABE3EF55BC /* Pods-ApexAdxSdk_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ApexAdxSdk_Tests"; path = Pods_ApexAdxSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A525A686A2EB64E6F6864C676ECD4F01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A87FAF7AF1B0048CBFC11CAD22138728 /* Pods-ApexAdxSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ApexAdxSdk_Example-dummy.m"; sourceTree = "<group>"; };
+		A9002FBF1CE7FC00D8A1FCC6BCFC8677 /* Pods-ApexAdxSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ApexAdxSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C4CCD9F3F54BA464A31C0B4B0F3073B7 /* Pods-ApexAdxSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApexAdxSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCA83EC55C2F115AF4354277EBA0EA54 /* ApexAdxSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ApexAdxSdk.modulemap; sourceTree = "<group>"; };
+		D38DF3F19404233E6AC1EDB912DDA89B /* ApexAdxSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ApexAdxSdk-dummy.m"; sourceTree = "<group>"; };
+		D7E09F068121DE134B807266FEE6F23D /* ApexAdxSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApexAdxSdk.release.xcconfig; sourceTree = "<group>"; };
+		D9FDC1A6F2A446CAF3589BA8C6958CDD /* Pods-ApexAdxSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApexAdxSdk_Example-Info.plist"; sourceTree = "<group>"; };
+		DBCD3E886A753AE0BD8B4EF9B6977D90 /* Pods-ApexAdxSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ApexAdxSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E1F0169092CFE9F505286E9B0C8B6C5B /* ApexAdxSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ApexAdxSdk; path = ApexAdxSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF89BFA5EE53FFBB3EA0A7C2A375BB77 /* ApexAdxSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApexAdxSdk-prefix.pch"; sourceTree = "<group>"; };
+		F91750EA33EBEACB72F2C59E2F2770F2 /* Pods-ApexAdxSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ApexAdxSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FC8D4A62E4D4815890CE16387386F1DE /* Pods-ApexAdxSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ApexAdxSdk_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217A29E50C062B1DAFE1C6661B86A3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8307DAACA0F4490A8A530EEE9577A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A37715C8DF00C267A88D4EAA126530F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6B10D78E7E53F32BC450C32B67AAB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95042B7A7BB254620174F8BA766C7306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17DE28FE50BB1053D93C19346812EA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22841328FE00535EE63A1A2104C6EEED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD3F7D588F08CF0B33249A18381D33 /* Pods-ApexAdxSdk_Example */,
+				376B4941214B359AE89525F202CA44E2 /* Pods-ApexAdxSdk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		376B4941214B359AE89525F202CA44E2 /* Pods-ApexAdxSdk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2B51764338917948C74497F3086BF7E3 /* Pods-ApexAdxSdk_Tests.modulemap */,
+				DBCD3E886A753AE0BD8B4EF9B6977D90 /* Pods-ApexAdxSdk_Tests-acknowledgements.markdown */,
+				C4CCD9F3F54BA464A31C0B4B0F3073B7 /* Pods-ApexAdxSdk_Tests-acknowledgements.plist */,
+				FC8D4A62E4D4815890CE16387386F1DE /* Pods-ApexAdxSdk_Tests-dummy.m */,
+				19D77CB51A1C6E64C06A08DB3D2BC6FF /* Pods-ApexAdxSdk_Tests-Info.plist */,
+				F91750EA33EBEACB72F2C59E2F2770F2 /* Pods-ApexAdxSdk_Tests-umbrella.h */,
+				9843CF1484C12CC13FC712B84F90EE8F /* Pods-ApexAdxSdk_Tests.debug.xcconfig */,
+				6B6761E7CCB9307E4FA22A0284C72942 /* Pods-ApexAdxSdk_Tests.release.xcconfig */,
+			);
+			name = "Pods-ApexAdxSdk_Tests";
+			path = "Target Support Files/Pods-ApexAdxSdk_Tests";
+			sourceTree = "<group>";
+		};
+		4EA53AF6F22AED70AACBBAB7F5D68D4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F0169092CFE9F505286E9B0C8B6C5B /* ApexAdxSdk */,
+				281C7D149272577A2406A955A1F98E1D /* Pods-ApexAdxSdk_Example */,
+				A13CDD12F86B41FC90C3F5ABE3EF55BC /* Pods-ApexAdxSdk_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64EBBB74AC5CA1F617DCC39E8F79F463 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				701E4716CAF808F7559FFDAD3E205DB0 /* ApexAdxSdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		66CBEA20F513E432550228F08C088DA8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				69F888991E5F9415F6E5CC283A7BEBA4 /* ApexAdxSdk.podspec */,
+				21A34BA478E36A563E7CEB59E47C3B6C /* LICENSE */,
+				A525A686A2EB64E6F6864C676ECD4F01 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		701E4716CAF808F7559FFDAD3E205DB0 /* ApexAdxSdk */ = {
+			isa = PBXGroup;
+			children = (
+				351F954033AAE5377AF41FE936B0CEF0 /* ReplaceMe.m */,
+				66CBEA20F513E432550228F08C088DA8 /* Pod */,
+				876C890020A57BB54D44C36294ED8BB4 /* Support Files */,
+			);
+			name = ApexAdxSdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		876C890020A57BB54D44C36294ED8BB4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA83EC55C2F115AF4354277EBA0EA54 /* ApexAdxSdk.modulemap */,
+				D38DF3F19404233E6AC1EDB912DDA89B /* ApexAdxSdk-dummy.m */,
+				2DC4A7E100D5A41D9F6BCE7375A9A039 /* ApexAdxSdk-Info.plist */,
+				EF89BFA5EE53FFBB3EA0A7C2A375BB77 /* ApexAdxSdk-prefix.pch */,
+				3CDAB0F504426393658CB285AB7BC7D8 /* ApexAdxSdk-umbrella.h */,
+				81E37D92CD612090E7E012692E580412 /* ApexAdxSdk.debug.xcconfig */,
+				D7E09F068121DE134B807266FEE6F23D /* ApexAdxSdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ApexAdxSdk";
+			sourceTree = "<group>";
+		};
+		ABDD3F7D588F08CF0B33249A18381D33 /* Pods-ApexAdxSdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5969D54A74BBA484CC8D21A643C83EC1 /* Pods-ApexAdxSdk_Example.modulemap */,
+				5ED566E8713DBB1D1EC49B817CA2BA1A /* Pods-ApexAdxSdk_Example-acknowledgements.markdown */,
+				14B4E542E3B2C9EB576666E1A788B3DE /* Pods-ApexAdxSdk_Example-acknowledgements.plist */,
+				A87FAF7AF1B0048CBFC11CAD22138728 /* Pods-ApexAdxSdk_Example-dummy.m */,
+				A9002FBF1CE7FC00D8A1FCC6BCFC8677 /* Pods-ApexAdxSdk_Example-frameworks.sh */,
+				D9FDC1A6F2A446CAF3589BA8C6958CDD /* Pods-ApexAdxSdk_Example-Info.plist */,
+				3A579B5D991543743C2D1DD4EA371D2F /* Pods-ApexAdxSdk_Example-umbrella.h */,
+				1A79B7831730255AD7876A57134D6A05 /* Pods-ApexAdxSdk_Example.debug.xcconfig */,
+				351841D4F9E5695621E271A3FEE5D5EE /* Pods-ApexAdxSdk_Example.release.xcconfig */,
+			);
+			name = "Pods-ApexAdxSdk_Example";
+			path = "Target Support Files/Pods-ApexAdxSdk_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				64EBBB74AC5CA1F617DCC39E8F79F463 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4EA53AF6F22AED70AACBBAB7F5D68D4D /* Products */,
+				22841328FE00535EE63A1A2104C6EEED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1596E5F31A1C8C6EF02071FADD3C6E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F075934D0052BFC43F59596F531C024 /* ApexAdxSdk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC0985FDFE123C5396972651D711352 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B606ED54649E7D57BBB0609C26DF6380 /* Pods-ApexAdxSdk_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30DD60F5210DFDE10CA120BC91EABDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96B6D901282A33B670159F35C0A19D2 /* Pods-ApexAdxSdk_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CD3E945F45A1CF650DD2E3C1E0E7372 /* Pods-ApexAdxSdk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B797856880862C3BA081A0C62316E69C /* Build configuration list for PBXNativeTarget "Pods-ApexAdxSdk_Example" */;
+			buildPhases = (
+				BDC0985FDFE123C5396972651D711352 /* Headers */,
+				D5DEE5D2551716280E165FF1987D12D8 /* Sources */,
+				217A29E50C062B1DAFE1C6661B86A3A8 /* Frameworks */,
+				1E6428C5D17B47E58FF1FF9CB23AE80A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE3BC1D690941AB8694D9DCE9BD42F41 /* PBXTargetDependency */,
+			);
+			name = "Pods-ApexAdxSdk_Example";
+			productName = Pods_ApexAdxSdk_Example;
+			productReference = 281C7D149272577A2406A955A1F98E1D /* Pods-ApexAdxSdk_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		4927A3C2421C97E5AA08BD98F21579AE /* ApexAdxSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064D2781727A23754F148FC5F743C04F /* Build configuration list for PBXNativeTarget "ApexAdxSdk" */;
+			buildPhases = (
+				A1596E5F31A1C8C6EF02071FADD3C6E3 /* Headers */,
+				07B8F89409F09F23A20DFAA40CE6C666 /* Sources */,
+				5A37715C8DF00C267A88D4EAA126530F /* Frameworks */,
+				96E4099A944426638DF2C1FC94294FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApexAdxSdk;
+			productName = ApexAdxSdk;
+			productReference = E1F0169092CFE9F505286E9B0C8B6C5B /* ApexAdxSdk */;
+			productType = "com.apple.product-type.framework";
+		};
+		C748291BE28FFDD12105C2F84CCE602A /* Pods-ApexAdxSdk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87F01F8939B3A8D4667D0F1C6D5BA8B /* Build configuration list for PBXNativeTarget "Pods-ApexAdxSdk_Tests" */;
+			buildPhases = (
+				E30DD60F5210DFDE10CA120BC91EABDE /* Headers */,
+				B0270F7BD9F57AE7BC4F019BBC8770C6 /* Sources */,
+				95042B7A7BB254620174F8BA766C7306 /* Frameworks */,
+				85F6A5982E99C1CB6C092C42A77F42F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF6C2737463E2A7B0FD64480C420CF79 /* PBXTargetDependency */,
+			);
+			name = "Pods-ApexAdxSdk_Tests";
+			productName = Pods_ApexAdxSdk_Tests;
+			productReference = A13CDD12F86B41FC90C3F5ABE3EF55BC /* Pods-ApexAdxSdk_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4EA53AF6F22AED70AACBBAB7F5D68D4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4927A3C2421C97E5AA08BD98F21579AE /* ApexAdxSdk */,
+				1CD3E945F45A1CF650DD2E3C1E0E7372 /* Pods-ApexAdxSdk_Example */,
+				C748291BE28FFDD12105C2F84CCE602A /* Pods-ApexAdxSdk_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E6428C5D17B47E58FF1FF9CB23AE80A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F6A5982E99C1CB6C092C42A77F42F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E4099A944426638DF2C1FC94294FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B8F89409F09F23A20DFAA40CE6C666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8BC99AF9054DE692B8CE78584B9A0A /* ApexAdxSdk-dummy.m in Sources */,
+				AFFF2037C96121C7A91D5F628231C866 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0270F7BD9F57AE7BC4F019BBC8770C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0C30C3EF139A724D89386DB2503FC8 /* Pods-ApexAdxSdk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DEE5D2551716280E165FF1987D12D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98724316D50332EB26B41D93768C9471 /* Pods-ApexAdxSdk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF6C2737463E2A7B0FD64480C420CF79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ApexAdxSdk_Example";
+			target = 1CD3E945F45A1CF650DD2E3C1E0E7372 /* Pods-ApexAdxSdk_Example */;
+			targetProxy = 41A7C6D214B62809909BC8662BF3580E /* PBXContainerItemProxy */;
+		};
+		DE3BC1D690941AB8694D9DCE9BD42F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ApexAdxSdk;
+			target = 4927A3C2421C97E5AA08BD98F21579AE /* ApexAdxSdk */;
+			targetProxy = 4DE5A4EFB43AD429BF0B81CA0C4C9835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12A6FE7C0066FC6BA06188DF3C02A59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351841D4F9E5695621E271A3FEE5D5EE /* Pods-ApexAdxSdk_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ApexAdxSdk_Example/Pods-ApexAdxSdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ApexAdxSdk_Example/Pods-ApexAdxSdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		14096E43436A3DA52CB85801B92EF135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A79B7831730255AD7876A57134D6A05 /* Pods-ApexAdxSdk_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ApexAdxSdk_Example/Pods-ApexAdxSdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ApexAdxSdk_Example/Pods-ApexAdxSdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BB7547F3EDAB6254DA8232683D09424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9843CF1484C12CC13FC712B84F90EE8F /* Pods-ApexAdxSdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ApexAdxSdk_Tests/Pods-ApexAdxSdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ApexAdxSdk_Tests/Pods-ApexAdxSdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C2021CE806EB482CB565A35454C6FBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E09F068121DE134B807266FEE6F23D /* ApexAdxSdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ApexAdxSdk/ApexAdxSdk-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ApexAdxSdk/ApexAdxSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ApexAdxSdk/ApexAdxSdk.modulemap";
+				PRODUCT_MODULE_NAME = ApexAdxSdk;
+				PRODUCT_NAME = ApexAdxSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D09DB715568FB42184EC187297159CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E37D92CD612090E7E012692E580412 /* ApexAdxSdk.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ApexAdxSdk/ApexAdxSdk-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ApexAdxSdk/ApexAdxSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ApexAdxSdk/ApexAdxSdk.modulemap";
+				PRODUCT_MODULE_NAME = ApexAdxSdk;
+				PRODUCT_NAME = ApexAdxSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F7E153DA10756EFE94F2B5A1EFEDFFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6761E7CCB9307E4FA22A0284C72942 /* Pods-ApexAdxSdk_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ApexAdxSdk_Tests/Pods-ApexAdxSdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ApexAdxSdk_Tests/Pods-ApexAdxSdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064D2781727A23754F148FC5F743C04F /* Build configuration list for PBXNativeTarget "ApexAdxSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09DB715568FB42184EC187297159CD3 /* Debug */,
+				C2021CE806EB482CB565A35454C6FBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B797856880862C3BA081A0C62316E69C /* Build configuration list for PBXNativeTarget "Pods-ApexAdxSdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14096E43436A3DA52CB85801B92EF135 /* Debug */,
+				12A6FE7C0066FC6BA06188DF3C02A59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87F01F8939B3A8D4667D0F1C6D5BA8B /* Build configuration list for PBXNativeTarget "Pods-ApexAdxSdk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB7547F3EDAB6254DA8232683D09424 /* Debug */,
+				F7E153DA10756EFE94F2B5A1EFEDFFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

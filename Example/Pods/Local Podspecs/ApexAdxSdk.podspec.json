@@ -1,0 +1,22 @@
+{
+  "name": "ApexAdxSdk",
+  "version": "0.1.0",
+  "summary": "A short description of ApexAdxSdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/18574247/ApexAdxSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "18574247": "260413992@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/18574247/ApexAdxSdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ApexAdxSdk/Classes/**/*"
+}

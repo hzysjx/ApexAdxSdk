@@ -1,0 +1,6 @@
+framework module Pods_ApexAdxSdk_Tests {
+  umbrella header "Pods-ApexAdxSdk_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ApexAdxSdk {
+  umbrella header "ApexAdxSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
